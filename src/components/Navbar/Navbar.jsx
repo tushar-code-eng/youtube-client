@@ -35,7 +35,7 @@ const Navbar = ({openSidebar,setOpenSidebar}) => {
           <Link to="/" style={{ textDecoration: "none" }}>
             <div className="logo">
               <img src={ytic} alt="" />
-              <p>MyYouTube</p>
+              <p>YourYouTube</p>
             </div>
           </Link>
         </div>
