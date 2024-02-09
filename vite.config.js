@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
       // '/api': 'http://localhost:3000/'
-      '/api': 'https://youtube-server-rust.vercel'
+      '/api': 'https://youtube-server-rust.vercel.app'
     }
   },
   plugins: [react()],
