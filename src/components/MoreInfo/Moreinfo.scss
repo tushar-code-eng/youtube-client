@@ -1,0 +1,49 @@
+.moreInfoContainer{
+    position:absolute;
+    top: 50px;
+    right: 60px;
+    width: 200px;
+    height: 190px;
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+    padding: 25px 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    z-index: 99;
+    .userImg{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: bisque;
+        object-fit: contain;
+        overflow: hidden;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .partition{
+        width: 100%;
+        border:0.6px solid rgba(255, 255, 255, 0.454) 
+    }
+    .userItem{
+        background-color: transparent;
+    }
+    .logout:hover{
+        background-color: rgb(97, 97, 97);
+    }
+    .logout{
+        background-color: transparent;
+        font-size: larger;
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        width: 90%;
+        padding: 5px;
+    }
+}

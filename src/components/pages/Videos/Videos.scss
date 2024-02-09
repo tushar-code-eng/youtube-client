@@ -1,0 +1,196 @@
+.videoContainerChange {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 6vw;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .content {
+    width:70%;
+    .videoWrapper {
+      width: 100%;
+      height: 60%;
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        overflow: hidden;
+        border-radius: 10px;
+        border: none;
+        object-fit: cover;
+        background-color: aquamarine;
+      }
+    }
+  }
+  .videoTitle {
+    font-size: 1.2em;
+    margin-top: 1vh;
+  }
+  iframe {
+    border-radius: 15px;
+  }
+
+  .desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vh;
+    .videoViews {
+      color: rgb(135, 134, 133);
+      font-size: 0.8em;
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5em;
+      margin-left: 1em;
+      border: 0.5px solid rgb(167, 144, 144);
+      border-radius: 4px;
+      padding: 0.2em;
+      cursor: pointer;
+    }
+  }
+  .line {
+    width: 100%;
+    border: 0.5px solid rgb(159, 156, 156);
+    margin: 15px 0;
+    opacity: 0.5;
+  }
+  .channelinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .channeltext {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+    button {
+      border: 0.5px solid white;
+      background: red;
+      padding: 7px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  .videodesc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+    background-color: #323131;
+    padding: 15px;
+    border-radius: 12px;
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+.videoContainer {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  .content {
+    width: 70%;
+    .videoWrapper {
+      width: 100%;
+      height: 60%;
+      video {
+        width: 100%;
+        height: 100%;
+        // overflow: hidden;
+        object-fit: cover;
+        border-radius: 20px;
+        background-color:inherit;
+      }
+    }
+  }
+  .videoTitle {
+    font-size: 1.2em;
+    margin-top: 1vh;
+  }
+  iframe {
+    border-radius: 15px;
+  }
+
+  .desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vh;
+    .videoViews {
+      color: rgb(135, 134, 133);
+      font-size: 0.8em;
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5em;
+      margin-left: 1em;
+      border: 0.5px solid rgb(167, 144, 144);
+      border-radius: 4px;
+      padding: 0.2em;
+      cursor: pointer;
+    }
+  }
+  .line {
+    width: 100%;
+    border: 0.5px solid rgb(159, 156, 156);
+    margin: 15px 0;
+    opacity: 0.5;
+  }
+  .channelinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .channeltext {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+      img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+    button {
+      border: 0.5px solid white;
+      background: red;
+      padding: 7px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  .videodesc {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 0.9em;
+    background-color: #323131;
+    padding: 15px;
+    border-radius: 12px;
+  }
+}

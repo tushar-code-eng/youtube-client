@@ -1,0 +1,52 @@
+.cardsContainer {
+  width: 350px;
+  height: 350px;
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+
+  .imageContainer {
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+
+    .thumbnailImg {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    .channelImg {
+      align-self: flex-start;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+    }
+    .texts {
+      color: white;
+      margin-left: 5px;
+      .title {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .channelName {
+        font-size: 14px;
+        margin-top: 5px;
+      }
+      .views {
+        font-size: 14px;
+        margin-top: 5px;
+        color: #aaa;
+      }
+    }
+  }
+}

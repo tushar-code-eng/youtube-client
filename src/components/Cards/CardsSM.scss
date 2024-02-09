@@ -1,0 +1,39 @@
+.cardsContainerSM{
+    width: 280px;
+    cursor: pointer;
+    display: flex;
+    margin: 1em;
+
+    .thumbnailImgSM{
+        width:150px;
+        height:90px;
+        border-radius: 10px;
+        
+    }
+
+    .detailsSM{
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+        .textsSM{
+            color: white;
+            margin-left:5px ;
+            align-self: flex-start;
+            .titleSM{
+                font-size: 17px;
+                font-weight: 400;
+            }
+            .channelNameSM{
+                font-size: 13px;
+                margin-top: 5px;
+                color: rgb(181, 177, 177);
+            }
+            .viewsSM{
+                font-size: 13px;
+                margin-top: 5px;
+                color: rgb(181, 177, 177);
+            }
+
+        }
+    }
+}
