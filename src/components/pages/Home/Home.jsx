@@ -16,7 +16,7 @@ const Home = ({ type }) => {
   useEffect(() => {
     try {
       const fetchVideos = async () => {
-        const res = await axios.get(`https://youtube-server-tawny.vercel.app/api/videos/${type}`, {
+        const res = await axios.get(`/api/videos/${type}`, {
           withCredentials: true,
         });
         setVideos(res.data);
